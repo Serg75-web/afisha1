@@ -30,7 +30,8 @@ public class AfishaManagerTest {
         afisha.add("Film Five");
 
         String[] actual = afisha.findLastFilms();
-        String[] expected = {"Film Five", "Film Four", "Film Three", "Film Two", "Film One"};;
+        String[] expected = {"Film Five", "Film Four", "Film Three", "Film Two", "Film One"};
+        ;
         Assertions.assertArrayEquals(expected, actual);
     }
 
@@ -61,7 +62,8 @@ public class AfishaManagerTest {
         afisha.add("Film Six");
 
         String[] actual = afisha.findLastFilms();
-        String[] expected = {"Film Six","Film Five", "Film Four", "Film Three", "Film Two"};;
+        String[] expected = {"Film Six", "Film Five", "Film Four", "Film Three", "Film Two"};
+        ;
         Assertions.assertArrayEquals(expected, actual);
     }
 
@@ -93,7 +95,8 @@ public class AfishaManagerTest {
         afisha.add("Film Seven");
 
         String[] actual = afisha.findLastFilms();
-        String[] expected = {"Film Seven", "Film Six", "Film Five", "Film Four", "Film Three"};;
+        String[] expected = {"Film Seven", "Film Six", "Film Five", "Film Four", "Film Three"};
+        ;
         Assertions.assertArrayEquals(expected, actual);
     }
 
