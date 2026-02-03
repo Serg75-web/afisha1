@@ -34,7 +34,7 @@ public class AfishaManager {
         if (films.length < limit) {
             resultLength = films.length;
         } else {
-            resultLength = 5;
+            resultLength = limit;
         }
 
         String[] tmp = new String[resultLength];

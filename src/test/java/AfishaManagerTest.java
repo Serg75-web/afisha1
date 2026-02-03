@@ -35,20 +35,6 @@ public class AfishaManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-//    @Test
-//    public void test2() {
-//        AfishaManager afisha = new AfishaManager();
-//
-//        afisha.add("Film One");
-//        afisha.add("Film Two");
-//        afisha.add("Film Three");
-//        afisha.add("Film Four");
-//        afisha.add("Film Five");
-//
-//        String[] actual = afisha.findLastFilms();
-//        String[] expected = {"Film Five", "Film Four", "Film Three", "Film Two", "Film One"};;
-//        Assertions.assertArrayEquals(expected, actual);
-//    }
 
     @Test
     public void test2() {
@@ -67,24 +53,10 @@ public class AfishaManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-//    @Test
-//    public void test4() {
-//        AfishaManager afisha = new AfishaManager();
-//
-//        afisha.add("Film One");
-//        afisha.add("Film Two");
-//        afisha.add("Film Three");
-//        afisha.add("Film Four");
-//        afisha.add("Film Five");
-//
-//        String[] actual = afisha.findLastFilms();
-//        String[] expected = {"Film Five", "Film Four", "Film Three", "Film Two", "Film One"};;
-//        Assertions.assertArrayEquals(expected, actual);
-//    }
 
     @Test
     public void test3() {
-        AfishaManager afisha = new AfishaManager(7);
+        AfishaManager afisha = new AfishaManager();
 
         afisha.add("Film One");
         afisha.add("Film Two");
